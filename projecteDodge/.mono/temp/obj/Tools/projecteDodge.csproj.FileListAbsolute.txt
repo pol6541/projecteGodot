@@ -1,0 +1,5 @@
+C:\Users\Pol\Documents\projecteDodge\.mono\temp\obj\Tools\projecteDodge.csprojAssemblyReference.cache
+C:\Users\Pol\Documents\projecteDodge\.mono\temp\bin\Tools\projecteDodge.dll
+C:\Users\Pol\Documents\projecteDodge\.mono\temp\bin\Tools\projecteDodge.pdb
+C:\Users\Pol\Documents\projecteDodge\.mono\temp\obj\Tools\projecteDodge.dll
+C:\Users\Pol\Documents\projecteDodge\.mono\temp\obj\Tools\projecteDodge.pdb
