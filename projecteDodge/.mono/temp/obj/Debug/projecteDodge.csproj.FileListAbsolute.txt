@@ -1,0 +1,6 @@
+C:\Users\Pol\Documents\projecteDodge\.mono\temp\bin\Debug\projecteDodge.dll
+C:\Users\Pol\Documents\projecteDodge\.mono\temp\bin\Debug\projecteDodge.pdb
+C:\Users\Pol\Documents\projecteDodge\.mono\temp\obj\Debug\projecteDodge.csprojAssemblyReference.cache
+C:\Users\Pol\Documents\projecteDodge\.mono\temp\obj\Debug\projecteDodge.csproj.CoreCompileInputs.cache
+C:\Users\Pol\Documents\projecteDodge\.mono\temp\obj\Debug\projecteDodge.dll
+C:\Users\Pol\Documents\projecteDodge\.mono\temp\obj\Debug\projecteDodge.pdb
