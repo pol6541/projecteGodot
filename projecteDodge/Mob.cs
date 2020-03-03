@@ -23,10 +23,10 @@ public class Mob : RigidBody2D
 //  {
 //      
 //  }
+	private void _on_Visibility_screen_exited()
+	{
+		QueueFree();
+	}
 }
 
 
-private void _on_Visibility_screen_exited()
-{
-	QueueFree();
-}

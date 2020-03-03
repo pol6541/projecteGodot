@@ -74,7 +74,7 @@ public class Player : Area2D
 		}
 	}
 
-	private void OnPlayerBodyEntered(PhysicsBody2D body)
+	private void _on_Player_body_entered(PhysicsBody2D body)
 	{
 		Hide(); // Player disappears after being hit.
 		EmitSignal("Hit");

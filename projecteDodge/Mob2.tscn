@@ -1,0 +1,41 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://keyframes/6.png" type="Texture" id=1]
+[ext_resource path="res://keyframes/5.png" type="Texture" id=2]
+[ext_resource path="res://keyframes/1.png" type="Texture" id=3]
+[ext_resource path="res://keyframes/4.png" type="Texture" id=4]
+[ext_resource path="res://keyframes/2.png" type="Texture" id=5]
+[ext_resource path="res://keyframes/3.png" type="Texture" id=6]
+[ext_resource path="res://Mob2.cs" type="Script" id=7]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 3 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 4 ), ExtResource( 2 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "bolaFoc",
+"speed": 7.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 16.4926
+height = 55.7769
+
+[node name="Mob2" type="RigidBody2D"]
+collision_mask = 0
+gravity_scale = 0.0
+script = ExtResource( 7 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+rotation = 3.14159
+scale = Vector2( 0.2, 0.2 )
+frames = SubResource( 1 )
+animation = "bolaFoc"
+frame = 4
+playing = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 7.16936, -5.69794 )
+rotation = 4.71239
+shape = SubResource( 2 )
+
+[node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="."]

@@ -53,8 +53,11 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HUD.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Mob.cs" />
+    <Compile Include="Mob2.cs" />
+    <Compile Include="Moneda.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
